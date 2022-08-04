@@ -1,5 +1,5 @@
 import  CharacterCard from './CharacterCard';
-import './App.css';
+// import './App.css';
 
 const word = "Hello";
 function App(){
