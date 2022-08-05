@@ -28,6 +28,8 @@
   color: #61dafb;
 }
 
+
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
@@ -38,7 +40,7 @@
 }
 
 .card {
-  display: inline - block;
+  display: inline-block;
   text-align: center;
   width: 3em;
   font-size: 2em;
@@ -46,3 +48,4 @@
   margin: 1em;
   user-select: none;
 }
+
