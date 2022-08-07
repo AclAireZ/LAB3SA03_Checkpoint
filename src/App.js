@@ -14,8 +14,10 @@ const buttonrefresh = () => {
 function App(){
   return (
     <div className = 'box'>
+      <div className = 'background'>
         <WordCard value={word}/>
         <button className = 'button' onClick={buttonrefresh}>new game</button>
+      </div>
     </div>
   );
 }
