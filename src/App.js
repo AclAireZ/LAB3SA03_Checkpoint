@@ -3,7 +3,10 @@ import './App.css';
 import WordCard from './WordCard';
 
 
-const word = 'Hello';
+// const word = 'hello';
+var wordArray = ['hello', 'world', 'React']
+var word = wordArray[Math.floor(Math.random()*wordArray.length)];
+
 const buttonrefresh = () => {
   window.location.reload();
 }
